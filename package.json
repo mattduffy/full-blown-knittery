@@ -1,0 +1,41 @@
+{
+  "name": "full-blown-knittery",
+  "version": "0.0.1",
+  "description": "full-blown-knittery",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+	"test": "node ./test/main.js",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/mattduffy/full-blown-knittery.git"
+	},
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+	"method-override": "^2.0.2",
+	"mongodb": "^1.4.7",
+	"mongoose": "^3.8.12",
+	"util": "^0.10.3"
+  },
+  "devDependencies": {
+	  "assert": "^1.1.1",
+	  "errorHandler": "^1.1.1",
+	  "response-time": "^2.0.0",
+	  "should": "^4.0.4"
+	},
+	"keywords": [
+		"full",
+		"blown",
+		"knittery"
+	],
+	"author": "Matthew Duffy",
+	"readmeFilename": "README.md"
+}
